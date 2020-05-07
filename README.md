@@ -1,2 +1,2 @@
 # SchoolTimetable
-简单的一个课程表
+简单的一个Android静态课程表
