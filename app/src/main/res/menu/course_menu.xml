@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/yuwen"
+        android:title="语文" />
+    <item
+        android:id="@+id/shuxue"
+        android:title="数学" />
+    <item
+        android:id="@+id/yingyu"
+        android:title="英语" />
+    <item
+        android:id="@+id/wuli"
+        android:title="物理" />
+    <item
+        android:id="@+id/huaxue"
+        android:title="化学" />
+    <item
+        android:id="@+id/shengwu"
+        android:title="生物" />
+    <item
+        android:id="@+id/lishi"
+        android:title="历史" />
+    <item
+        android:id="@+id/zhengzhi"
+        android:title="政治" />
+    <item
+        android:id="@+id/dili"
+        android:title="地理" />
+    <item
+        android:id="@+id/yinyue"
+        android:title="音乐" />
+    <item
+        android:id="@+id/meishu"
+        android:title="美术" />
+    <item
+        android:id="@+id/tiyu"
+        android:title="体育" />
+    <item
+        android:id="@+id/diannao"
+        android:title="电脑" />
+    <item
+        android:id="@+id/kexue"
+        android:title="科学" />
+    <item
+        android:id="@+id/sixiangpinde"
+        android:title="思想品德" />
+</menu>

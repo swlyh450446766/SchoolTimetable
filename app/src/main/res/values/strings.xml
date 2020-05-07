@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">SchoolTimeTable</string>
+    <string name="course_select_title">请选择课程</string>
+    <string name="queding">确定</string>
+    <string name="yuwen">语文</string>
+    <string name="shuxue">数学</string>
+    <string name="yingyu">英语</string>
+    <string name="wuli">物理</string>
+    <string name="huaxue">化学</string>
+    <string name="shengwu">生物</string>
+    <string name="zhengzhi">政治</string>
+    <string name="dili">地理</string>
+    <string name="lishi">历史</string>
+    <string name="xinxi">信息</string>
+    <string name="tiyu">体育</string>
+    <string name="kexue">科学</string>
+    <string name="ziran">自然</string>
+    <string name="meishu">美术</string>
+    <string name="shougong">手工</string>
+    <string name="laodong">劳动</string>
+    <string name="weiji">微机</string>
+    <string name="zixi">自习</string>
+    <string name="kongbai">空白</string>
+    <string name="zidingyi">自定义</string>
+
+</resources>
