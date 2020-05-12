@@ -31,7 +31,6 @@ public class CourseModel implements ICourseBiz {
     public RelativeLayout layout;
     private Dialog mDialog;
 
-
     private Button yuwen;
     private Button shuxue;
     private Button yingyu;
@@ -71,7 +70,7 @@ public class CourseModel implements ICourseBiz {
         layout = new RelativeLayout(activity);
         mButton = new Button[35];
         //这里创建35个按钮，每行放置5个按钮
-        final Button Btn[] = new Button[35];
+        final Button[] Btn = new Button[35];
         int j = -1;
         for (int i = 0; i <= 34; i++) {
             Btn[i] = new Button(activity);
@@ -150,29 +149,29 @@ public class CourseModel implements ICourseBiz {
         dialog.show();
         dialog.getWindow().setLayout((ScreenUtils.getScreenWidth(activity) / 4 * 3), ScreenUtils.getScreenHeight(activity) / 4 * 3);
 
-        yuwen = (Button) view.findViewById(R.id.yuwen);
-        shuxue = (Button) view.findViewById(R.id.shuxue);
-        yingyu = (Button) view.findViewById(R.id.yingyu);
-        wuli = (Button) view.findViewById(R.id.wuli);
-        huaxue = (Button) view.findViewById(R.id.huaxue);
+        yuwen = view.findViewById(R.id.yuwen);
+        shuxue = view.findViewById(R.id.shuxue);
+        yingyu = view.findViewById(R.id.yingyu);
+        wuli = view.findViewById(R.id.wuli);
+        huaxue = view.findViewById(R.id.huaxue);
 
-        shengwu = (Button) view.findViewById(R.id.shengwu);
-        zhengzhi = (Button) view.findViewById(R.id.zhengzhi);
-        dili = (Button) view.findViewById(R.id.dili);
-        lishi = (Button) view.findViewById(R.id.lishi);
-        xinxi = (Button) view.findViewById(R.id.xinxi);
+        shengwu = view.findViewById(R.id.shengwu);
+        zhengzhi = view.findViewById(R.id.zhengzhi);
+        dili = view.findViewById(R.id.dili);
+        lishi = view.findViewById(R.id.lishi);
+        xinxi = view.findViewById(R.id.xinxi);
 
-        tiyu = (Button) view.findViewById(R.id.tiyu);
-        kexue = (Button) view.findViewById(R.id.kexue);
-        ziran = (Button) view.findViewById(R.id.ziran);
-        meishu = (Button) view.findViewById(R.id.meishu);
-        shougong = (Button) view.findViewById(R.id.shougong);
+        tiyu = view.findViewById(R.id.tiyu);
+        kexue = view.findViewById(R.id.kexue);
+        ziran = view.findViewById(R.id.ziran);
+        meishu = view.findViewById(R.id.meishu);
+        shougong = view.findViewById(R.id.shougong);
 
-        laodong = (Button) view.findViewById(R.id.laodong);
-        weiji = (Button) view.findViewById(R.id.weiji);
-        zixi = (Button) view.findViewById(R.id.zixi);
-        kongbai = (Button) view.findViewById(R.id.kongbai);
-        zidingyi = (Button) view.findViewById(R.id.zidingyi);
+        laodong = view.findViewById(R.id.laodong);
+        weiji = view.findViewById(R.id.weiji);
+        zixi = view.findViewById(R.id.zixi);
+        kongbai = view.findViewById(R.id.kongbai);
+        zidingyi = view.findViewById(R.id.zidingyi);
 
         courseSubmit = view.findViewById(R.id.courseSubmit);
 
